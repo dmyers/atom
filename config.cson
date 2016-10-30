@@ -1,0 +1,46 @@
+"*":
+  core:
+    disabledPackages: [
+      "activate-power-mode"
+      "metrics"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".node_modules"
+      ".vagrant"
+      "vendor"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "spacegray-dark-ui"
+      "base16-ocean-dark-spacegray"
+    ]
+  editor:
+    fontFamily: "Hack"
+    fontSize: 12
+    invisibles:
+      eol: " "
+      tab: " "
+    lineHeight: 1.3
+    scrollPastEnd: true
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "4bf9d369-a204-efe1-c540-837e2a68ccdd"
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
+    tabLength: 4
+".html.php.text":
+  editor:
+    tabLength: 4
